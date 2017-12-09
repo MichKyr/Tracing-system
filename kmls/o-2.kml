@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+<name>Oliveo - OliTrace </name>
+<description><![CDATA[Olitrace Map]]></description>
+<Style id="style14">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Oliveo Partner2</name>
+<description><![CDATA[<div dir="ltr">Name:Naveen Bigdeli<br>Country:Saudi Arabia<br>City:Jeddah<br></div>]]></description>
+<styleUrl>#style14</styleUrl>
+<Point>
+<coordinates>39.134674,21.663172,0.000000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

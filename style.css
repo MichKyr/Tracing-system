@@ -1,0 +1,256 @@
+/**********************
+     GENERAL STYLE
+ **********************/
+body
+{
+  margin-left: 2%; margin-right: 2%;
+  color: black; background: #063d63;
+  font-family: Arial;
+}
+
+TD.price_cell
+{
+	color: #550000;
+	font-weight: bold;
+}
+
+a
+{
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+    color: #3333ba;
+}
+
+a:hover
+{
+	/*text-decoration: underline;*/
+    color: #0033ee;
+
+}
+
+/**********************
+   Menu
+ **********************/
+
+TABLE.menu a
+{   
+    display: table-cell;
+    line-height: 48px;
+ 	color: #ffffff;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12;
+	height: 48px;
+	width: 150px;
+}
+TABLE.menu a:hover
+{
+/*    font-size: larger;*/
+}
+
+TABLE.menu TD
+{
+	text-align: center;
+	background: url(images/menu_button2.png) no-repeat center center;
+	height: 48px;
+        width: 150px;
+}
+TABLE.menu TD:hover
+{
+	background: url(images/menu_hover2.png) no-repeat center center;
+}
+
+
+
+/***************************
+  List table
+ ***************************/
+table.list_table
+{
+	background-color: #46465c;
+	border: 2px solid #0546f6;
+}
+
+table.list_table th
+{
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+	margin-left: 0.8em;
+	height: 24px;
+	background: url(images/column_header_bevel.png) center center;
+}
+
+table.list_table td
+{
+	height: 24px;
+	background-color: #ffffff;
+	border-bottom: 1px dotted #444444;
+}
+
+table.list_table #row_1 td
+{
+	background-color: #ededf7;
+	border-bottom: 1px dotted #444444;
+}
+
+table.list_table #selected td
+{
+	background-color: #ffffff;
+	font-size: 12pt;
+	background: url(images/row_selected.png) center center;
+}
+
+table.list_table #selected a
+{
+	color: #ffffff;
+
+}
+
+
+table.list_table td a
+{
+	margin-left: 0.3em;
+	font-size: 11pt;
+}
+
+/***********************
+ Main table
+ **********************/
+table.main_table
+{
+	background-color: #ffffff;
+}
+ 
+/**********************
+	Frame table
+**********************/
+TD.frame_tleft
+{
+	width: 21px;
+	height: 19px;
+	background-image: url(images/frame_tleft.png);
+}
+
+TD.frame_top
+{
+	height: 19px;
+	background-image: url(images/frame_top.png);
+}
+
+TD.frame_tright
+{
+	height: 19px;
+	width: 22px;
+	background-image: url(images/frame_tright.png);
+}
+
+TD.frame_left
+{
+	background-image: url(images/frame_left.png);
+}
+
+TD.frame_right
+{
+	background-image: url(images/frame_right.png);
+}
+
+TD.frame_bottom
+{
+	height: 21px;
+	background-image: url(images/frame_bottom.png);
+}
+
+TD.frame_bleft
+{
+	background-image: url(images/frame_bleft.png);
+}
+
+TD.frame_bright
+{
+	background-image: url(images/frame_bright.png);
+}
+
+FONT.footer
+{
+	font: 9pt Arial;
+	color: #999999;
+}
+
+
+/*********************
+  Simple list
+ ********************/
+table.simplelist
+{
+}
+
+table.simplelist th
+{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 2px solid #063d63;
+}
+
+table.simplelist td
+{
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 1px dotted #999999;
+}
+
+table.simplelist td a
+{
+	font-size: 14px;
+    text-align: center;
+}
+
+/********************
+  Edit form
+ ********************/
+table.edit_form
+{
+}
+
+table.edit_form th
+{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	height: 50px;
+	vertical-align: top;
+	color: #333333;
+}
+
+table.edit_form #field_name
+{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	color: #333333;
+}
+
+table.edit_form #field_help
+{
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	font-style: italic;
+	color: #555555;
+}
+
+table.edit_form #submit input
+{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+}
+
+
+

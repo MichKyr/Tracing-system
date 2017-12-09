@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+<name>Oliveo - OliTrace </name>
+<description><![CDATA[Olitrace Map]]></description>
+<Style id="style30">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/earthquake.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Extraction Site-1</name>
+<description><![CDATA[<div dir="ltr">Name:02-001<br>Owner:K.Nikolaidis<br>City:Sperchogia<br>Adress:Kapou 24<br>Phone Number:2721000000<br></div>]]></description>
+<styleUrl>#style30</styleUrl>
+<Point>
+<coordinates>22.058825,37.072956,0.000000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

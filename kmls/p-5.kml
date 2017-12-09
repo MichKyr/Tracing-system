@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+<name>Oliveo - OliTrace </name>
+<description><![CDATA[Olitrace Map]]></description>
+<Style id="style34">
+<LineStyle>
+<color>FF33FF33</color>
+<width>5</width>
+</LineStyle>
+</Style>
+<Style id="style15">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/tree.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="style30">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/earthquake.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="style2">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/earthquake.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="style14">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="style32">
+<LineStyle>
+<color>B333FF33</color>
+<width>15</width>
+</LineStyle>
+</Style>
+<Style id="style1">
+<LineStyle>
+<color>B300CCFF</color>
+<width>15</width>
+</LineStyle>
+</Style>
+<Style id="style11">
+<LineStyle>
+<color>990000FF</color>
+<width>15</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Plantation1</name>
+<description><![CDATA[<div dir="ltr">Variety:Koroneiki<br>Owner:C.Papazisis<br>Owner E-mail:C.Papazisis@oliveo.gr<br>Year of Est:1990<br></div>]]></description>
+<styleUrl>#style34</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+22.032597,37.227802,0.000000 22.031122,37.228073,0.000000 22.031090,37.227207,0.000000 22.031240,37.227085,0.000000 22.031963,37.226887,0.000000 22.032576,37.226742,0.000000 22.032875,37.226780,0.000000 22.033375,37.226646,0.000000 22.033810,37.226799,0.000000 22.033627,37.227371,0.000000 22.033594,37.227940,0.000000 22.033005,37.227879,0.000000 22.032597,37.227802,0.000000
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Plantation2</name>
+<description><![CDATA[<div dir="ltr">Variety:Koroneiki<br>Owner:K.Papazissis<br>Owner E-mail:K.Papazissis@oliveo.gr<br>Year of Est:1930<br></div>]]></description>
+<styleUrl>#style15</styleUrl>
+<Point>
+<coordinates>22.060987,37.075520,0.000000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Extraction Site-1</name>
+<description><![CDATA[<div dir="ltr">Name:02-001<br>Owner:K.Nikolaidis<br>City:Sperchogia<br>Adress:Kapou 24<br>Phone Number:2721000000<br></div>]]></description>
+<styleUrl>#style30</styleUrl>
+<Point>
+<coordinates>22.058825,37.072956,0.000000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bottling Site-1</name>
+<description><![CDATA[<div dir="ltr">Name:MUAC<br>Owner:Messinia Union of Agricultural Cooperatives<br>City:Thouria<br>Adress:Ethniki Odos Tripoleos Kalamatas<br>Phone Number:2721011111<br></div>]]></description>
+<styleUrl>#style2</styleUrl>
+<Point>
+<coordinates>22.051117,37.076691,0.000000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Oliveo Partner1</name>
+<description><![CDATA[<div dir="ltr">Name:Mike<br>Country:Greece<br>City:Kalamata<br></div>]]></description>
+<styleUrl>#style14</styleUrl>
+<Point>
+<coordinates>22.112461,37.026196,0.000000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pallete-5</name>
+<description><![CDATA[]]></description>
+<styleUrl>#style11</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+22.051117,37.076691,0.000000
+22.112461,37.026196,0.000000
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Crops</name>
+<description><![CDATA[<div dir="ltr">CropID:3<br>Date:2014-01-03<br>Weight:130<br>
+CropID:1<br>Date:2014-01-01<br>Weight:100<br>
+</div>]]></description>
+<styleUrl>#style34</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+22.032597,37.227802,0.000000
+22.058825,37.072956,0.000000
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Crops</name>
+<description><![CDATA[<div dir="ltr">CropID:2<br>Date:2014-01-02<br>Weight:110<br>
+</div>]]></description>
+<styleUrl>#style34</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+22.060987,37.075520,0.000000
+22.058825,37.072956,0.000000
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Lots</name>
+<description><![CDATA[<div dir="ltr">LotID:2<br>Date:2014-01-04<br>Quality:A<br>Acidity:low<br>Weight:200<br>
+LotID:1<br>Date:2014-01-02<br>Quality:A<br>Acidity:low<br>Weight:80<br>
+</div>]]></description>
+<styleUrl>#style1</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+22.058825,37.072956,0.000000
+22.051117,37.076691,0.000000
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</kml>

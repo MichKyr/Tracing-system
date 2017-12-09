@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+<name>Oliveo - OliTrace </name>
+<description><![CDATA[Olitrace Map]]></description>
+<Style id="style2">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/earthquake.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Extraction Site-1</name>
+<description><![CDATA[<div dir="ltr">Name:MUAC<br>Owner:Messinia Union of Agricultural Cooperatives<br>City:Thouria<br>Adress:Ethniki Odos Tripoleos Kalamatas<br>Phone Number:2721011111<br></div>]]></description>
+<styleUrl>#style2</styleUrl>
+<Point>
+<coordinates>22.051117,37.076691,0.000000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

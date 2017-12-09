@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+<name>Oliveo - OliTrace </name>
+<description><![CDATA[Olitrace Map]]></description>
+<Style id="style34">
+<LineStyle>
+<color>FF33FF33</color>
+<width>5</width>
+</LineStyle>
+</Style>
+<Style id="style15">
+<IconStyle>
+<Icon>
+<href>http://maps.gstatic.com/mapfiles/ms2/micons/tree.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Plantation2</name>
+<description><![CDATA[<div dir="ltr">Variety:Koroneiki<br>Owner:K.Papazissis<br>Owner E-mail:K.Papazissis@oliveo.gr<br>Year of Est:1930<br></div>]]></description>
+<styleUrl>#style15</styleUrl>
+<Point>
+<coordinates>22.060987,37.075520,0.000000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

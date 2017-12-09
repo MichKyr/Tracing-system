@@ -1,0 +1,148 @@
+    <name>Plantation - 02.031</name>
+    <description><![CDATA[<div dir="ltr">
+	Tree Type: Koroneiki<br>Tree size: Medium<br><span style="font-size:10pt">
+	Average Yield: 2tn</span></div><div dir="ltr"><span style="font-size:10pt">
+	Annual Fluctuation: 20%</span></div><div dir="ltr"><span style="font-size:10pt">
+	Class: A</span></div><div dir="ltr">
+	Owner: &nbsp;C.Papazisis</div><div dir="ltr"><span style="font-size:10pt">
+	Partner since: 1990</span></div><div dir="ltr"><div dir="ltr">
+	Oliveo Responsible: Iraklis P.</div><br>&nbsp;</div>]]></description>
+
+22.032597,37.227802,0.000000
+22.031122,37.228073,0.000000
+22.031090,37.227207,0.000000
+22.031240,37.227085,0.000000
+22.031963,37.226887,0.000000
+22.032576,37.226742,0.000000
+22.032875,37.226780,0.000000
+22.033375,37.226646,0.000000
+22.033810,37.226799,0.000000
+22.033627,37.227371,0.000000
+22.033594,37.227940,0.000000
+22.033005,37.227879,0.000000
+22.032597,37.227802,0.000000
+
+    <name>Plantation - 02.031</name>
+    <description><![CDATA[<div dir="ltr">
+	Tree Type: Koroneiki<br>Tree size: Medium<br><span style="font-size:10pt">
+	Average Yield: 2tn</span></div><div dir="ltr"><span style="font-size:10pt">
+	Annual Fluctuation: 20%</span></div><div dir="ltr"><span style="font-size:10pt">
+	Class: A</span></div><div dir="ltr"><span style="font-size:10pt">
+	Established: 1930</span></div><div dir="ltr"><div dir="ltr"><br>&nbsp;</div><div dir="ltr">
+	Owner: &nbsp;K.Papazissis
+    </div><div dir="ltr">Responsible: G.Papazissis</div><div dir="ltr">Oliveo Responsible: Iraklis P.</div><br>&nbsp;</div>]]></description>
+
+22.060987,37.075520,0.000000
+
+    <Placemark>
+    <name>Plantation - 02.031</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style23</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+22.061388,37.075008,0.000000
+22.061693,37.075188,0.000000
+22.061726,37.075527,0.000000
+22.061918,37.075855,0.000000
+22.062113,37.076073,0.000000
+22.062338,37.076237,0.000000
+22.062113,37.076519,0.000000
+22.061630,37.076328,0.000000
+22.061485,37.076378,0.000000
+22.061275,37.076210,0.000000
+22.061178,37.076057,0.000000
+22.060692,37.075783,0.000000
+22.060518,37.075665,0.000000
+22.061388,37.075008,0.000000
+
+
+    <name>Plantation</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>
+22.057081,37.076923,0.000000
+
+    <name>Plantation</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style29</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+22.056437,37.077419,0.000000
+22.057337,37.077915,0.000000
+22.057606,37.077606,0.000000
+22.057713,37.077118,0.000000
+22.058905,37.075775,0.000000
+22.058334,37.075638,0.000000
+22.058109,37.076153,0.000000
+22.057701,37.076794,0.000000
+22.057219,37.077007,0.000000
+22.056875,37.076855,0.000000
+22.056437,37.077419,0.000000
+
+   <name>Extraction Site - 02-001</name>
+    <description><![CDATA[<div><font face="arial" size="2">
+	Average Annual Yield: 120 tn</font></div><div><font face="arial" size="2">
+	Annual Fluctuation:20%</font></div><div><font face="arial" size="2">
+	Plant Class: B</font></div><div><font face="arial" size="2">
+	Product Class: A, B, C</font></div><div><span style="font-family:arial;font-size:small">
+	Owner: K.Nikolaidis</span></div><font face="arial" size="2">
+	Sperchogia
+	Partner Since: 1995</font><div><font face="arial" size="2"><br></font></div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>
+22.058825,37.072956,0.000000
+
+
+
+    <name>Bottling Site</name>
+    <description><![CDATA[<div><span style="font-size:10pt">
+	Owner: Messinia Union of Agricultural Cooperatives</span></div><div><span style="font-size:10pt">
+	Average Annual Yield: 2mn bottles</span></div><div>
+	Bottle types: Dorica, Maresca</div><div>
+	Class: A+</div><div>
+	Established: 1985</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>
+22.051117,37.076691,0.000000
+
+
+InKalamata
+22.112461,37.026196,0.000000
+
+    <name>Person 12</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>
+22.057404,37.077290,0.000000
+
+
+
+    <name>G. Papazissis</name>
+    <description><![CDATA[mail: george.papazissis@oliveo.gr<div>skype: gpapa.oliveo</div><div><br>&nbsp;</div><div>&nbsp;</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>
+22.061331,37.075279,0.000000
+
+
+    <name>G. Mavreas</name>
+    <description><![CDATA[email: george.mavreas@oliveo.gr<div>skype: geomav.oliveo</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>
+22.058605,37.072651,0.000000
+
+
+
+    <name>Naveen Bigdeli</name>
+    <description><![CDATA[<div dir="ltr">email: naveen.bigdeli@oliveo.gr<br>skype: bidgeli.oliveo</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>
+39.134674,21.663172,0.000000

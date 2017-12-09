@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Oliveo - OliTrace </name>
+  <description><![CDATA[Olitrace Map]]></description>
+  <Style id="style34">
+    <LineStyle>
+      <color>FF33FF33</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/tree.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/earthquake.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/earthquake.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/homegardenbusiness.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <LineStyle>
+      <color>FF33FF33</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style32">
+    <LineStyle>
+      <color>B333FF33</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>B300CCFF</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ferry.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <LineStyle>
+      <color>B30000FF</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style5">
+    <LineStyle>
+      <color>B30000FF</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/plane.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/tree.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <LineStyle>
+      <color>FF33FF33</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style35">
+    <LineStyle>
+      <color>B333FF33</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ferry.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <LineStyle>
+      <color>990000FF</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style20">
+    <LineStyle>
+      <color>B3990000</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style33">
+    <LineStyle>
+      <color>B3FF6633</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/camera.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/camera.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <LineStyle>
+      <color>B3990000</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/plane.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <LineStyle>
+      <color>B3FF6633</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style36">
+    <LineStyle>
+      <color>B3990000</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ferry.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/homegardenbusiness.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/convienancestore.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <LineStyle>
+      <color>B3999933</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style38">
+    <LineStyle>
+      <color>B3999933</color>
+      <width>15</width>
+    </LineStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/man.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/homegardenbusiness.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Plantation - 02.031</name>
+    <description><![CDATA[<div dir="ltr">Tree Type: Koroneiki<br>Tree size: Medium<br><span style="font-size:10pt">Average Yield: 2tn</span></div><div dir="ltr"><span style="font-size:10pt">Annual Fluctuation: 20%</span></div><div dir="ltr"><span style="font-size:10pt">Class: A</span></div><div dir="ltr">Owner: &nbsp;C.Papazisis</div><div dir="ltr"><span style="font-size:10pt">Partner since: 1990</span></div><div dir="ltr"><div dir="ltr">Oliveo Responsible: Iraklis P.</div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.032597,37.227802,0.000000
+        22.031122,37.228073,0.000000
+        22.031090,37.227207,0.000000
+        22.031240,37.227085,0.000000
+        22.031963,37.226887,0.000000
+        22.032576,37.226742,0.000000
+        22.032875,37.226780,0.000000
+        22.033375,37.226646,0.000000
+        22.033810,37.226799,0.000000
+        22.033627,37.227371,0.000000
+        22.033594,37.227940,0.000000
+        22.033005,37.227879,0.000000
+        22.032597,37.227802,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Plantation - 02.031</name>
+    <description><![CDATA[<div dir="ltr">Tree Type: Koroneiki<br>Tree size: Medium<br><span style="font-size:10pt">Average Yield: 2tn</span></div><div dir="ltr"><span style="font-size:10pt">Annual Fluctuation: 20%</span></div><div dir="ltr"><span style="font-size:10pt">Class: A</span></div><div dir="ltr"><span style="font-size:10pt">Established: 1930</span></div><div dir="ltr"><div dir="ltr"><br>&nbsp;</div><div dir="ltr">Owner: &nbsp;K.Papazissis
+</div><div dir="ltr">Responsible: G.Papazissis</div><div dir="ltr">Oliveo Responsible: Iraklis P.</div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>22.060987,37.075520,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Extraction Site - 02-001</name>
+    <description><![CDATA[<div><font face="arial" size="2">Average Annual Yield: 120 tn</font></div><div><font face="arial" size="2">Annual Fluctuation:20%</font></div><div><font face="arial" size="2">Plant Class: B</font></div><div><font face="arial" size="2">Product Class: A, B, C</font></div><div><span style="font-family:arial;font-size:small">Owner: K.Nikolaidis</span></div><font face="arial" size="2">Partner Since: 1995</font><div><font face="arial" size="2"><br></font></div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>22.058825,37.072956,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bottling Site</name>
+    <description><![CDATA[<div><span style="font-size:10pt">Owner: Messinia Union of Agricultural Cooperatives</span></div><div><span style="font-size:10pt">Average Annual Yield: 2mn bottles</span></div><div>Bottle types: Dorica, Maresca</div><div>Class: A+</div><div>Established: 1985</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>22.051117,37.076691,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Laboratory - 01.001 </name>
+    <description><![CDATA[Owner: Messinia Union of Agricultural Cooperatives<div>Class: A&nbsp;<br><span style="font-size:10pt">Analysis Types: Chemical</span><div><span style="font-size:10pt">Certificates: ISO, EN</span></div><div>Analysed Quantities: Acidity, DKX, Wax</div><div>Established: 1985</div></div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>22.051727,37.075611,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Storage Site - 01.001</name>
+    <description><![CDATA[<div><span style="font-size:10pt">Owner: Messinia Union of Agricultural Cooperatives</span></div><div><span style="font-size:10pt">Class: A+</span></div><div>Established: 1985
+</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>22.049957,37.076401,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Plantation - 02.031</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style23</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.061388,37.075008,0.000000
+        22.061693,37.075188,0.000000
+        22.061726,37.075527,0.000000
+        22.061918,37.075855,0.000000
+        22.062113,37.076073,0.000000
+        22.062338,37.076237,0.000000
+        22.062113,37.076519,0.000000
+        22.061630,37.076328,0.000000
+        22.061485,37.076378,0.000000
+        22.061275,37.076210,0.000000
+        22.061178,37.076057,0.000000
+        22.060692,37.075783,0.000000
+        22.060518,37.075665,0.000000
+        22.061388,37.075008,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Lot 02.131-2012-01</name>
+    <description><![CDATA[<div dir="ltr">Type: A Olives<br>Units: Kg<br>Size: 600<br>Date: 2012.12.01<br>Into Lot: B 02.001-2012-002</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.060740,37.075211,0.000000
+        22.058990,37.073143,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Lot 02.001-2012-002</name>
+    <description><![CDATA[Type: B Extracted Olive Oil<div>Units: Kg</div><div>Size: 6500</div><div>Date: 2012.12.03</div><div>Connected Lots: A-02.00X-2012-0XX</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.058472,37.072845,0.000000
+        22.052200,37.075600,0.000000
+        22.053379,37.074951,0.000000
+        22.052179,37.075562,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Kalamata Port</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>22.111359,37.019001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lot 9</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style39</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.051544,37.075199,0.000000
+        22.112461,37.026196,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Lot 10</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.049807,37.075760,0.000000
+        22.029291,37.054901,0.000000
+        22.029549,37.054901,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Kalamata Airport</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>22.028275,37.051685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Plantation</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>22.057081,37.076923,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Plantation</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style29</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.056437,37.077419,0.000000
+        22.057337,37.077915,0.000000
+        22.057606,37.077606,0.000000
+        22.057713,37.077118,0.000000
+        22.058905,37.075775,0.000000
+        22.058334,37.075638,0.000000
+        22.058109,37.076153,0.000000
+        22.057701,37.076794,0.000000
+        22.057219,37.077007,0.000000
+        22.056875,37.076855,0.000000
+        22.056437,37.077419,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Lot 14</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style35</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.057159,37.076851,0.000000
+        22.058664,37.073143,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Piraeus Port</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>23.628845,37.943115,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lot 15</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.050354,37.077728,0.000000
+        22.032660,37.309010,0.000000
+        22.318310,37.415981,0.000000
+        22.472120,37.644680,0.000000
+        22.928049,37.922531,0.000000
+        23.142281,37.939861,0.000000
+        23.271370,38.004822,0.000000
+        23.430670,38.006981,0.000000
+        23.576241,38.071869,0.000000
+        23.626089,38.015640,0.000000
+        23.581739,38.063229,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 16</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style20</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.774414,37.792423,0.000000
+        26.279289,36.164478,0.000000
+        39.140167,21.536444,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 17</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style33</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.025871,37.054836,0.000000
+        0.043945,51.371780,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Person 12</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>22.057404,37.077290,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>G. Papazissis</name>
+    <description><![CDATA[mail: george.papazissis@oliveo.gr<div>skype: gpapa.oliveo</div><div><br>&nbsp;</div><div>&nbsp;</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>22.061331,37.075279,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 15</name>
+    <description><![CDATA[<img src="https://encrypted-tbn3.google.com/images?q=tbn:ANd9GcRADkLM5lP-W68LJdR700xICeiNvTvJR-ALccF3_ACJtS16nq449Q" style="width:242px">]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>22.061651,37.075809,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 16</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>22.056824,37.077290,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>G. Mavreas</name>
+    <description><![CDATA[email: george.mavreas@oliveo.gr<div>skype: geomav.oliveo</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>22.058605,37.072651,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 18</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>22.051437,37.075485,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 19</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>22.050804,37.076561,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 20</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>22.049582,37.076176,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Line 13</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style16</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.862305,38.177750,0.000000
+        33.618164,44.590466,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Athens Airport</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>23.893890,37.836903,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Line 14</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.823029,37.991833,0.000000
+        20.741364,40.901058,0.000000
+        8.876953,49.979488,0.000000
+        20.752350,40.888599,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 16</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style36</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        20.289713,36.737579,0.000000
+        -17.239586,34.812466,0.000000
+        -80.520836,25.798426,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 19</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>39.150467,21.529099,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 20</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>39.200592,21.548899,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jedha Airport Shop </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>39.152355,21.664686,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Line 18</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style26</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        39.153645,21.663570,0.000000
+        39.199306,21.553129,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 20</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style38</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        39.156548,21.533171,0.000000
+        39.198177,21.549137,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Naveen Bigdeli</name>
+    <description><![CDATA[<div dir="ltr">email: naveen.bigdeli@oliveo.gr<br>skype: bidgeli.oliveo</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>39.134674,21.663172,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 23</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>39.221878,21.557199,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 24</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>22.058079,37.072334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

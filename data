@@ -1,0 +1,116 @@
+add some data
+
+
+<name>Plantation - 02.031</name>
+Tree Type: Koroneiki
+Tree size: Medium
+Average Yield: 2tn
+Annual Fluctuation: 20%
+Class: A
+Owner: C.Papazisis
+Partner since: 1990
+Oliveo Responsible: Iraklis P.
+      <coordinates>
+22.032597,37.227802,0.000000
+22.031122,37.228073,0.000000
+22.031090,37.227207,0.000000
+22.031240,37.227085,0.000000
+22.031963,37.226887,0.000000
+22.032576,37.226742,0.000000
+22.032875,37.226780,0.000000
+22.033375,37.226646,0.000000
+22.033810,37.226799,0.000000
+22.033627,37.227371,0.000000
+22.033594,37.227940,0.000000
+22.033005,37.227879,0.000000
+22.032597,37.227802,0.000000
+      </coordinates>
+ 
+    <name>Plantation - 02.031</name>
+    Tree Type: Koroneiki
+    Tree size: Medium
+    Average Yield: 2tn
+    Annual Fluctuation: 20%
+    Class: A
+    Established: 1930
+    Owner: K.Papazissis
+Responsible: G.Papazissis
+Oliveo Responsible: Iraklis P.
+ 
+      <coordinates>22.060987,37.075520,0.000000</coordinates>
+ 
+    <name>Plantation - 02.031</name>
+      <coordinates>
+        22.061388,37.075008,0.000000
+        22.061693,37.075188,0.000000
+        22.061726,37.075527,0.000000
+        22.061918,37.075855,0.000000
+        22.062113,37.076073,0.000000
+        22.062338,37.076237,0.000000
+        22.062113,37.076519,0.000000
+        22.061630,37.076328,0.000000
+        22.061485,37.076378,0.000000
+        22.061275,37.076210,0.000000
+        22.061178,37.076057,0.000000
+        22.060692,37.075783,0.000000
+        22.060518,37.075665,0.000000
+        22.061388,37.075008,0.000000
+      </coordinates>
+ 
+   <Placemark>
+    <name>Lot 02.131-2012-01</name>
+    Type: A Olives
+    Units: Kg
+    Size: 600
+    Date: 2012.12.01
+    Into Lot: B 02.001-2012-002
+ 
+    <name>Lot 02.001-2012-002</name>
+   
+   Type: B Extracted Olive Oil
+   Units: Kg
+   Size: 6500
+   Date: 2012.12.03
+   Connected Lots: A-02.00X-2012-0XX
+   
+   
+   
+   
+   
+ 
+    <name>G. Papazissis</name>
+    mail: george.papazissis@oliveo.gr
+    skype: gpapa.oliveo
+      <coordinates>22.061331,37.075279,0.000000</coordinates>
+  
+    <name>G. Mavreas</name>
+    email: george.mavreas@oliveo.gr
+    skype: geomav.oliveo
+      <coordinates>22.058605,37.072651,0.000000</coordinates>
+  
+    <name>Naveen Bigdeli</name>
+   email: naveen.bigdeli@oliveo.gr
+   skype: bidgeli.oliveo
+      <coordinates>39.134674,21.663172,0.000000</coordinates>
+  
+  
+    <name>Extraction Site - 02-001</name>
+   Average Annual Yield: 120 tn
+   Annual Fluctuation:20%
+   Plant Class: B
+   Product Class: A, B, C
+   Owner: K.Nikolaidis
+   Partner Since: 1995
+
+      <coordinates>22.058825,37.072956,0.000000</coordinates>
+
+  
+
+    <name>Bottling Site</name>
+   Owner: Messinia Union of Agricultural Cooperatives
+   Average Annual Yield: 2mn bottles
+   Bottle types: Dorica, Maresca
+   Class: A+
+   Established: 1985
+      <coordinates>22.051117,37.076691,0.000000</coordinates>
+

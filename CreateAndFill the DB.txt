@@ -1,0 +1,125 @@
+DROP DATABASE IF EXISTS olitrace;
+CREATE DATABASE IF NOT EXISTS olitrace;
+USE olitrace;
+SET storage_engine=INNODB;
+SET NAMES 'utf8';
+
+CREATE TABLE BottlingSite
+ (BottlingSiteID int AUTO_INCREMENT,
+ Name varchar(64),
+ OwnerName varchar(64),
+ City varchar(32),
+ Address varchar(64),
+ Coordinates varchar(128),
+ Phonenumber varchar (16),
+ Photo varchar(64),
+ OwnerPhoto varchar(64),
+ PRIMARY KEY (BottlingSiteID));
+
+CREATE TABLE OliveoPartner
+(PartnerID int AUTO_INCREMENT,
+Name varchar(64),
+Coordinates varchar(128),
+Country varchar(32),
+City varchar(32),
+Photo varchar(64),
+PRIMARY KEY (PartnerID));
+
+CREATE TABLE ExtractionSite
+ (ExtractionSiteID int AUTO_INCREMENT,
+ Name varchar(64),
+ OwnerName varchar(64),
+ City varchar(32),
+ Address varchar(64),
+ Coordinates varchar(128),
+ Phonenumber varchar(16),
+ Photo varchar(64),
+ OwnerPhoto varchar(64),
+ PRIMARY KEY (ExtractionSiteID));
+
+CREATE TABLE Pallete
+ (PalleteID int AUTO_INCREMENT,
+ BottlingSiteID int,
+ PartnerID int,
+ DateShipped date,
+ DateBottled date,
+ QRcode varchar(64),
+ PRIMARY KEY (PalleteID),
+ FOREIGN KEY (`BottlingSiteID`) REFERENCES `BottlingSite`(`BottlingSiteID`)
+ ON DELETE CASCADE,
+ FOREIGN KEY (`PartnerID`) REFERENCES `OliveoPartner`(`PartnerID`)
+ ON DELETE CASCADE);
+ 
+CREATE TABLE Lot
+ (LotID int AUTO_INCREMENT,
+  ExtractionSiteID int,
+ Date date,
+ Quality varchar(32),
+ Acidity varchar(32),
+ Weight int,
+ PRIMARY KEY (LotID),
+ FOREIGN KEY (`ExtractionSiteID`) REFERENCES `ExtractionSite`(`ExtractionSiteID`)
+ ON DELETE CASCADE);
+ 
+CREATE TABLE FromLot
+ (PalleteID int,
+ LotID int,
+ PRIMARY KEY (PalleteID,LotID),
+ FOREIGN KEY (`PalleteID`) REFERENCES `Pallete`(`PalleteID`)
+   ON DELETE CASCADE,
+ FOREIGN KEY (`LotID`) REFERENCES `Lot`(`LotID`)
+   ON DELETE CASCADE);
+ 
+CREATE TABLE Field
+ (FieldID int AUTO_INCREMENT,
+ OwnerName varchar(64),
+ OwnerEmail varchar (64),
+ OwnerPhoto varchar(64),
+ Variety varchar(64),
+ YearOfEst int,
+ Coordinates varchar(600),
+ Photo varchar(64),
+ PRIMARY KEY (FieldID));
+
+CREATE TABLE Crop
+(CropID int AUTO_INCREMENT,
+ FieldID int,
+ Date date,
+ Weight int,
+ PRIMARY KEY (CropID),
+ FOREIGN KEY (`FieldID`) REFERENCES `Field`(`FieldID`)
+ ON DELETE CASCADE);
+ 
+ 
+ CREATE TABLE FromCrop
+ (CropID int,
+ LotID int,
+ PRIMARY KEY (CropID ,LotID),
+ FOREIGN KEY (`CropID`) REFERENCES `Crop`(`CropID`)
+  ON DELETE CASCADE,
+ FOREIGN KEY (`LotID`) REFERENCES `Lot`(`LotID`)
+   ON DELETE CASCADE);
+ 
+INSERT INTO `bottlingsite` VALUES (1,'MUAC','Messinia Union of Agricultural Cooperatives','Thouria','Ethniki Odos Tripoleos Kalamatas','22.051117,37.076691,0.000000','2721011111','./photos/bp-1-botsite3.jpg','./photos/bop-1-botowner.jpg');
+
+
+INSERT INTO `extractionsite` VALUES (1,'02-001','K.Nikolaidis','Sperchogia','Kapou 24','22.058825,37.072956,0.000000','2721000000','./photos/ep-1-extrsite2.jpg','./photos/eop-1-extrowner2.jpeg');
+
+INSERT INTO `oliveopartner` VALUES (1,'Mike','22.112461,37.026196,0.000000','Greece','Kalamata','./photos/op-1-person.jpg'),(2,'Naveen Bigdeli','39.134674,21.663172,0.000000','Saudi Arabia','Jeddah','./photos/op-2-oliveopartner2.JPG');
+
+
+INSERT INTO `field` VALUES (1,'C.Papazisis','C.Papazisis@oliveo.gr','./photos/fop-1-fieldowner.jpg','Koroneiki',1990,'22.032597,37.227802,0.000000 22.031122,37.228073,0.000000 22.031090,37.227207,0.000000 22.031240,37.227085,0.000000 22.031963,37.226887,0.000000 22.032576,37.226742,0.000000 22.032875,37.226780,0.000000 22.033375,37.226646,0.000000 22.033810,37.226799,0.000000 22.033627,37.227371,0.000000 22.033594,37.227940,0.000000 22.033005,37.227879,0.000000 22.032597,37.227802,0.000000','./photos/fp-1-field.jpg'),(2,'K.Papazissis','K.Papazissis@oliveo.gr','./photos/fop-2-fieldowner2.jpg','Koroneiki',1930,'22.060987,37.075520,0.000000','./photos/fp-2-field2.jpg');
+
+
+
+INSERT INTO `crop` VALUES (1,1,'2014-01-01',100),(2,2,'2014-01-02',110),(3,1,'2014-01-03',130);
+INSERT INTO `lot` VALUES (1,1,'2014-01-02','A','low',80),(2,1,'2014-01-04','A','low',200);
+INSERT INTO `pallete` VALUES (1,1,1,'2014-01-09','2014-01-06',NULL),(2,1,2,'2014-01-12','2014-01-10',NULL);
+
+
+LOCK TABLES `FromCrop` WRITE;
+INSERT INTO `fromcrop` VALUES (1,1),(2,2),(3,2);
+UNLOCK TABLES;
+LOCK TABLES `FromLot` WRITE;
+INSERT INTO `fromlot` VALUES (1,1),(2,2);
+UNLOCK TABLES;
